@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="이미지 파일 경로" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>daily,</title>
+
+  <!-- 폰트연결 -->
+  <link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet">
+
+  <link href="https://webfontworld.github.io/Cafe24Shiningstar/Cafe24Shiningstar.css" rel="stylesheet">
+
+
+
+  <!-- css 연결 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+  <link rel="stylesheet" href="./2nstyle.css">
+
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- 슬라이드 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+  <link href="./css/gallery.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+</head>
+
+<body>
+  <div id="main">
+    <div class="header">
+      <a href="#"><img src="./img/logo.png" alt="로고"></a>
+      <ul class="nav">
+        <li><a href="#">Brand Story</a></li>
+        <li><a href="#">Prouduct</a></li>
+        <li><a href="#">Commuity</a></li>
+        <li><a href="#">Event</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ve">
+    <video src="./img/daily.mp4" autoplay playsinline loop muted></video>
+
+  </div>
+
+  <section>
+    <div class="textbox">
+      <h3>
+        Best Product
+      </h3>
+      <h5>일상쉼표의 인기많은 제품을 소개해드려요.</h5>
+    </div>
+    <div class="box1">
+      <div class="p1">
+        <a href="#" class="pro1" data-aos="fade-left">
+          <img src="./img/pro1.png" alt="제품1">
+          <div class="t1">
+            <h4>모이스쳐 <br> 미네랄 미스트</h4>
+          </div>
+        </a>
+      </div>
+
+      <div class="p2">
+        <a href="#" class="pro2" data-aos="fade-right">
+          <img src="./img/pro2.png" alt="제품2">
+          <div class="t2">
+            <h4>모이스쳐 콜라겐 <br> 헤어 미스트</h4>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="sec2">
+    <div class="box2">
+      <div class="skin1">
+        <img src="./img/skin1.png" alt="물광1" data-aos="zoom-in-up">
+        <div class="skintext">
+          <h3>Inner moisturizing <br>
+            care line</h3>
+          <h4>피부속부터 차오르는
+            물광</h4>
+        </div>
+      </div>
+      <div class="skin2">
+        <div class="text1">
+          <h4>피부 자극없는 속보습 <br>
+            네추럴 클렌져로 시작하세요.</h4>
+          <p>세안 후 건조하고 땡기는 느낌을 받았다면, 피부장벽을 높여 속보습 부터 <br>
+            채워주어야 합니다. 지친 피부에게 휴식을 주어 피부 속부터 말끔하게 <br>
+            화장부터 피지까지 관리할 수 있는 클렌져로 시작하세요</p>
+          <a href="#">제품보러가기</a>
+        </div>
+        <img src="./img/skin2.png" alt="물광2" data-aos="zoom-in-up">
+      </div>
+    </div>
+  </div>
+
+  <!-- 슬라이드 구문 -->
+  <div class="slide">
+    <div class="swiper-container gallery">
+      <div class="gallery_inner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img">
+              <a href="#"><img src="./img/j1.png" alt="갤러리1">
+            </div>
+            <h5>모이스쳐크림 비건포뮬라</h5>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <div class="img">
+              <a href="#"><img src="./img/j2.png" alt="갤러리1">
+            </div>
+            <h5>릴렉싱아로마틱 핸드워시</h5>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <div class="img">
+              <a href="#"><img src="./img/j3.png" alt="갤러리1">
+            </div>
+            <h5>히아루로닉 세럼</h5>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <div class="img">
+              <a href="#"><img src="./img/j4.png" alt="갤러리1">
+            </div>
+            <h5>모이스쳐 미네랄 미스트</h5>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <div class="img">
+              <a href="#"><img src="./img/j5.png" alt="갤러리1">
+            </div>
+
+            <h5>퍼퓸핸드크림</h5></a>
+          </div>
+          <div class="swiper-slide">
+            <div class="img">
+              <a href="#"><img src="./img/j6.png" alt="갤러리1">
+            </div>
+            <h5>네추럴 클렌징폼</h5>
+            </a>
+          </div>
+
+        </div>
+        <!-- 블릿 버튼 -->
+        <div class="swiper-pagination"></div>
+        <!-- 화살표 버튼
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+      </div>
+    </div>
+  </div>
+
+
+<div class="brand">
+  <div class="btext">
+  <h5 data-aos="fade-up" data-aos-delay="0">" Put a comma on your skin "</h5>
+  <h6 data-aos="fade-up" data-aos-delay="400">지친 피부를 위한 쉼표의 시간을 주세요.</h6>
+  <div data-aos="fade-up" data-aos-delay="700" class="box3">
+    <img src="./img/brand2.jpg" alt="브랜드소개">
+    <div class="text5">
+  <p>우리의 피부는 고용량의 자극적인 화장품의 사용으로 지쳐있을지도 모릅니다. <br>
+    그래서 일상쉼표는 지친 피부에 잠시 휴식의 시간을 <br>
+    줄 수 있는 화장품을 생각했습니다.</p>
+    
+  <p>
+    매일 바르더라도 피부에 자극이 가지 않는 순한 성분,    <br>
+    피부와 가장 일치하며 도움을 줄 수 있는 성분들로    <br>
+    일상에서 쓰는 화장품의 가격에 부담이 없는 그런 화장품을 만들기로    <br>
+    생각하고 연구하였습니다.   
+    </p>
+    <p>
+    일상쉼표가 추구하는 피부의 휴식, <br>
+    저희와 함께 시작하세요.</p>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+  <footer>
+    <div class="footer_in">
+      <a href="index.html"><img src="./img/logo2.png" alt="푸터로고"></a>
+      <div class="footerbox">
+        <ul>
+          <li><a href="sub1.html">회사소개</a></li>
+          <li>｜</li>
+          <li><a href="#none">이용안내</a></li>
+          <li>｜</li>
+          <li><a href="#none">사이트 이용약관</a></li>
+          <li>｜</li>
+          <li><a href="#none">개인정보처리방침</a></li>
+        </ul>
+        <p>일상쉼표 ｜ 대표 : 이유민｜ 주소 : (03161) 서울특별시 종로구 인사동 1길 &nbsp;
+          사업자등록번호 : 105-82-24800 &nbsp;
+          TEL : 1544-9286 &nbsp; FAX : 02-337-2563 &nbsp; 통신판매업 &nbsp;신고번호 : 제2009-서울마포-0865호
+          개인정보보호 책임자 : 황지영
+
+          Copyright ⓒ. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="./js/aos.js"></script><!-- aos 소스 -->
+
+
+  <!-- 슬라이드 js -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="./js/gallery.js"></script><!--디자인에 맞게 수정-->
+</body>
+
+</html>
